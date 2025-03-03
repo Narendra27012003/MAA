@@ -1,0 +1,40 @@
+header  specification
+
+
+
+width: 1280;
+height: 56;
+justify-content: space-between;
+padding-top: 12px;
+padding-right: 24px;
+padding-bottom: 12px;
+padding-left: 338px;
+background: #C5CAE9;
+
+
+
+
+left side bar specifications
+
+width: 314;
+height: 832;
+justify-content: space-between;
+padding: 12px;
+background: #E7E9F4;
+
+
+
+search bar specification
+
+
+width: 260;
+height: 32;
+min-width: 260px;
+max-width: 720px;
+min-height: 32px;
+max-height: 112px;
+border-radius: 28px;
+gap: 4px;
+background: #FFFFFF;
+
+
