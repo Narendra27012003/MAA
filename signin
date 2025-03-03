@@ -1,0 +1,13 @@
+sign in and sign out  specification
+
+width: 630;
+height: 600;
+top: 116px;
+left: 325px;
+border-radius: 16px;
+padding: 40px;
+gap: 40px;
+
+background: #F9F9F9;
+
+
