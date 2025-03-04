@@ -1,0 +1,6 @@
+{ path: 'shipments', component: ShipmentTrackingComponent }
+
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8m0mti3fotHqrh5gqycdaUngSsNXwk8c"></script>
