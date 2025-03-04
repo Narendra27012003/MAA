@@ -1,0 +1,18 @@
+<div class="blog-container">
+  <h2>Food Safety Blogs</h2>
+  
+  <!-- Blog Grid: Two images per row -->
+  <div class="blog-grid">
+    <div *ngFor="let blog of blogs" class="blog-card">
+      <img [src]="blog.imageUrl" [alt]="blog.title" />
+      <h3>{{ blog.title }}</h3>
+      <p>{{ blog.description }}</p>
+    </div>
+  </div>
+  
+  <!-- Additional Info Section -->
+  <div class="additional-info">
+    <h3>About Food Safety</h3>
+    <p>{{ additionalInfo }}</p>
+  </div>
+</div>
