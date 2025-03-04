@@ -1,0 +1,42 @@
+<div class="dashboard-container">
+  <!-- Row 1 -->
+  <div class="cell shipment-stats">
+    <h3>Shipment Statistics</h3>
+    <p>Total: 960</p>
+    <highcharts-chart
+      [Highcharts]="Highcharts"
+      [options]="shipmentStatsOptions"
+      style="width: 100%; height: 300px; display: block;">
+    </highcharts-chart>
+  </div>
+  <div class="cell analysis-chart">
+    <h3>Analysis</h3>
+    <highcharts-chart
+      [Highcharts]="Highcharts"
+      [options]="analysisChartOptions"
+      style="width: 100%; height: 300px; display: block;">
+    </highcharts-chart>
+  </div>
+
+  <!-- Row 2 -->
+  <div class="cell daily-tasks">
+    <h3>My Daily Tasks</h3>
+    <p>Total: 72</p>
+    <highcharts-chart
+      [Highcharts]="Highcharts"
+      [options]="dailyTasksOptions"
+      style="width: 100%; height: 300px; display: block;">
+    </highcharts-chart>
+  </div>
+  <div class="cell food-blogs">
+    <h3>Food Safety Blogs</h3>
+    <div class="blog-item">
+      <img src="https://via.placeholder.com/150" alt="Blog 1" />
+      <p><strong>2/1/2023:</strong> FDA reviews popular ice-cream brand</p>
+    </div>
+    <div class="blog-item">
+      <img src="https://via.placeholder.com/150" alt="Blog 2" />
+      <p><strong>3/5/2023:</strong> Cost-effective Buyings</p>
+    </div>
+  </div>
+</div>

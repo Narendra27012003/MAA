@@ -1,0 +1,51 @@
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  grid-template-rows: auto auto;  /* Two rows */
+  gap: 20px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.cell {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Row 1: Shipment Statistics & Analysis Chart */
+.shipment-stats h3,
+.analysis-chart h3,
+.daily-tasks h3,
+.food-blogs h3 {
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.shipment-stats p,
+.daily-tasks p {
+  margin: 0 0 12px 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Food Safety Blogs */
+.food-blogs .blog-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.food-blogs .blog-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.food-blogs .blog-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
