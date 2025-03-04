@@ -1,0 +1,51 @@
+     40 │       .catch((err) => next(err));
+         ╵               ~~~
+
+
+Watch mode enabled. Watching for file changes...
+Application bundle generation failed. [0.975 seconds]
+
+X [ERROR] TS2305: Module '"@angular/ssr"' has no exported member 'CommonEngine'. [plugin angular-compiler]
+
+    server.ts:2:9:
+      2 │ import { CommonEngine } from '@angular/ssr';
+        ╵          ~~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'html' implicitly has an 'any' type. [plugin angular-compiler]
+
+    server.ts:39:13:
+      39 │       .then((html) => res.send(html))
+         ╵              ~~~~
+
+
+X [ERROR] TS7006: Parameter 'err' implicitly has an 'any' type. [plugin angular-compiler]
+
+    server.ts:40:14:
+      40 │       .catch((err) => next(err));
+         ╵               ~~~
+
+
+Application bundle generation failed. [0.420 seconds]
+
+X [ERROR] TS2305: Module '"@angular/ssr"' has no exported member 'CommonEngine'. [plugin angular-compiler]
+
+    server.ts:2:9:
+      2 │ import { CommonEngine } from '@angular/ssr';
+        ╵          ~~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'html' implicitly has an 'any' type. [plugin angular-compiler]
+
+    server.ts:39:13:
+      39 │       .then((html) => res.send(html))
+         ╵              ~~~~
+
+
+X [ERROR] TS7006: Parameter 'err' implicitly has an 'any' type. [plugin angular-compiler]
+
+    server.ts:40:14:
+      40 │       .catch((err) => next(err));
+         ╵               ~~~
+
+
